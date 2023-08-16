@@ -12,8 +12,8 @@ def somar (array_1, array_2):
     return novo_array
     
 #exercicio 2
-def redimensionar_array(ndarray):
-    ndarray.shape = (2,5)
+def redimensionar_array(ndarray,  n_linhas, n_colunas):
+    ndarray.shape = ( n_linhas, n_colunas)
     
     return ndarray
     
@@ -23,7 +23,12 @@ def converter_float(ndarray):
     return ndarray
 
 def transpostas(ndarray):
-    np.transpose(ndarray)
+    ndarray = np.transpose(ndarray)
     
     return ndarray
-    
+
+#exercicio 3
+def multiplicar (ndarray_1, ndarray_2):
+    multiplicado = ndarray_1* ndarray_2
+
+    return multiplicado
