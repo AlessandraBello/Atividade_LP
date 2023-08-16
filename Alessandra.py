@@ -6,7 +6,11 @@ def gerar_ndarray (inicio_intervalo, final_intervalo, n_elementos):
     ndarray = npr.randint(inicio_intervalo, final_intervalo, n_elementos)
     
     return ndarray
+def somar (array_1, array_2):
+    novo_array = array_1+array_2
 
+    return novo_array
+    
 #exercicio 2
 def redimensionar_array(ndarray):
     ndarray.shape = (2,5)
