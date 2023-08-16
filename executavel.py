@@ -23,4 +23,9 @@ array4 = Alessandra.redimensionar_array (array4, 5, 2)
 array4 = Alessandra.multiplicar(array3, array4)
 
 #execicio 4
-ex_4(0,10,6)
+exercicio4 = Alessandra.ex_4(0,10,6)
+print (array1)
+print (array2)
+print (array3)
+print (array4)
+print (exercicio4)
