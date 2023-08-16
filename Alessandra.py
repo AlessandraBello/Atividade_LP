@@ -61,3 +61,5 @@ def ex_4(inicio_intervalo, final_intervalo, n_elementos):
         if elemento not in lista_de_elementos:
             elementos_unicos.append(elemento)
     print(elementos_unicos)
+
+    return (array5, array6)
