@@ -21,3 +21,6 @@ array4 = Alessandra.gerar_ndarray(0,100,10)
 array4 = Alessandra.redimensionar_array (array4, 5, 2)
 
 array4 = Alessandra.multiplicar(array3, array4)
+
+#execicio 4
+ex_4(0,10,6)
