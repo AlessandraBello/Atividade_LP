@@ -2,11 +2,9 @@ import Alessandra
 
 #exercicio 1
 
-a = Alessandra.gerar_ndarray(0,100,10)
-b = Alessandra.gerar_ndarray(0,100,10)
-print(a, b)
+array1 = Alessandra.gerar_ndarray(0,100,10)
+array2 = Alessandra.gerar_ndarray(0,100,10)
 
-c = a+b
+array3 = Alessandra.somar(array1, array2)
 
-print(c)
-
+#exercicio 2 
