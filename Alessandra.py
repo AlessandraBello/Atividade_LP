@@ -63,3 +63,22 @@ def ex_4(inicio_intervalo, final_intervalo, n_elementos):
     print(elementos_unicos)
 
     return (array5, array6)
+
+def ex_7():
+    array7 = np.hstack(ex_4)
+    
+    soma = 0
+    qtd = 0
+    for elemento in array7:
+        soma += elemento
+        qtd += 1
+    media = soma/qtd
+    
+    dp = 0
+    for elemento in array7:
+        dp += (media - elemento)**2
+    dp = (dp/qtd)**0.5
+    
+    var = dp**2
+    
+    return media, dp, var
